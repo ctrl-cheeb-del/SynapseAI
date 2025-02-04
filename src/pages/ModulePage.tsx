@@ -172,7 +172,7 @@ const ModulePage = () => {
 
     setAnalyzing(true);
     try {
-      const response = await fetch('http://localhost:3001/api/analyze', {
+      const response = await fetch('https://synapse-ai-backend.vercel.app/api/analyze', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
