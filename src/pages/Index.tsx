@@ -61,7 +61,7 @@ const Index = () => {
               variants={fadeIn}
               className="text-xl text-muted-foreground mb-12 max-w-2xl mx-auto"
             >
-              Upload your lecture slides and notes. Get instant summaries and custom quizzes powered by AI.
+              Upload your PDF lecture slides and instantly get AI-generated flashcards, quizzes, and summaries to supercharge your learning.
             </motion.p>
 
             <motion.div
@@ -101,18 +101,18 @@ const Index = () => {
             >
               <FeatureCard
                 icon={FileText}
-                title="Upload Materials"
-                description="Simply upload your lecture slides, notes, or study materials in various formats."
+                title="Upload PDFs"
+                description="Simply upload your PDF lecture slides and let our AI do the rest. No manual work needed."
               />
               <FeatureCard
                 icon={Brain}
-                title="AI Processing"
-                description="Our AI analyzes your content and generates comprehensive summaries."
+                title="Automatic Generation"
+                description="Our AI instantly creates flashcards, summaries, and study guides from your slides."
               />
               <FeatureCard
                 icon={BookOpen}
-                title="Generate Quizzes"
-                description="Get personalized quizzes based on your material to test your knowledge."
+                title="Learn & Test"
+                description="Practice with auto-generated quizzes, review flashcards, and master your material efficiently."
               />
             </motion.div>
           </div>
